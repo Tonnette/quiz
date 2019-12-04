@@ -76,7 +76,6 @@ $(document).ready(function() {
         "answer": 2
     }];
     score = 0;
-    let counter = 0;
     $(".first-question").text(questionAnswerRoundOne[0].question);
     $("#btn1").text(questionAnswerRoundOne[0].choices[0]);
     $("#btn2").text(questionAnswerRoundOne[0].choices[1]);
@@ -323,26 +322,6 @@ $(document).ready(function() {
             $(".insertDiv").append("<br>");
 
         });
-
-        // console.log("HHH 2")
-
-        // HighScores Page
-        // var textEntered = document.querySelector(".highscores-text");
-        // textEntered.textContent = userArray + " " + " - final score: " + userArray.score;
-
-        // function addToHighScores() {
-        //     var para = document.createElement("p");
-        //     $(".insertDiv").append(para);
-        //     para.innerHTML = textEntered.textContent
-        //     console.log(para.innerHTML);
-
-        //     $(".highscores-text").text("");
-        //     userInitials.textContent = "";
-        // }
-
-        // $(".add-to-scores").on("click", function() {
-        //     addToHighScores();
-        // });
 
         //clear High Scores
         $(".clear-high-scores").on("click", function() {
