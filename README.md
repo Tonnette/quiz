@@ -16,6 +16,15 @@ You may log your score in the high scores section and the user also has the abil
 # Tech/framework used
 This website was built using bootstrap, html, CSS, JavaScript and a bit of Jquery.
 
+# website
+https://tonnette.github.io/quiz/
+
+# github repo
+https://github.com/Tonnette/quiz
+
+# Screen Shot
+![ScreenShot](https://github.com/Tonnette/quiz/blob/master/ScreenShotQuiz.png)
+
 # contributors
 Tonnette Stanford
 
